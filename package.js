@@ -1,6 +1,6 @@
 Package.describe({
   name: 'bdunnette:cornerstone',
-  version: '0.0.1',
+  version: '0.8.1',
   // Brief, one-line summary of the package.
   summary: 'Cornerstone medical imaging library packaged for Meteor',
   // URL to the Git repository containing the source code for this package.
@@ -12,7 +12,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2');
+  api.versionsFrom('1.0');
   api.addFiles([
     'lib/cornerstone.js',
     'styles/cornerstone.css'
